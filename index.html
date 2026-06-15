@@ -1,0 +1,135 @@
+<html>
+    <title>Bike</title>
+    <style>
+        header,footer{
+            background-color:darkmagenta;
+            color:white;
+            font-family: sans-serif;
+            font-size:larger;
+        }
+        h1{
+            color:deeppink;
+            font-family: inherit;
+            font-weight: 800;
+        }
+        button{
+            background-color:darkmagenta;
+            color:white;
+        }
+        *{
+            font-family: cursive;
+        }
+        #p1{
+            color:deeppink;
+            font-family: initial;
+            font-size:large;
+        }
+        .title{
+            color:darkmagenta;
+            font-family: initial;
+            font-size:large;
+        }
+        label{
+            color: darkmagenta;
+            font-family: cursive;
+            font-style: oblique;
+            font-size: medium;
+        }
+        textarea{
+            border-color: darkmagenta;
+            border-width: 2px;
+            border-radius: 20px;
+        }
+        form input{
+            margin: 10px;
+            width: 300;
+            border-radius:20px;
+            padding: 20px;
+            border-color: darkmagenta;
+            border-style:groove;
+            border-width: 2px;
+        }
+    </style>
+    <script>
+        function c(){
+            alert("Bike registered successfully!!");
+        }
+        function r(){
+            alert("Form cleared");
+        }
+    </script>
+    <body style="background-color:white;">
+        <center><h1>
+            <header>
+                BIKE RIDERS
+            </header></h1></center>
+        <table width="1300" align="center">
+            <tr>
+                <td>
+        <h1 >We love super bikes ❤️</h1>
+        <p class="title">
+            A bike is an incredible machine that offers an unmatched blend of freedom, 
+            fitness, and eco-friendly transportation. Whether you are hitting the 
+            pavement on a sleek motorcycle or enjoying the simple mechanics of a bicycle,
+            riding provides a thrilling connection to the road and the world around you.
+            For cyclists, the bicycle serves as a lifelong symbol of health and adventure.
+            A good bike nickname should match its personality whether that means choosing 
+            something fast and sleek, rugged, or playfully punny. The best name depends on 
+            your bike's style, color, and your personal riding vibe. 
+        </p>
+        <p id="p1"> 
+            It requires no fuel, reduces your carbon footprint, and allows you to explore your
+            local surroundings at your own pace. From daily commutes along city streets to rugged
+            trail rides in the countryside, cycling builds physical endurance while simultaneously
+            clearing the mind.On the other hand, motorcycles offer a completely different kind of 
+            adrenaline rush. Designed with powerful engines, these two-wheeled vehicles are 
+            built for those who crave speed, touring, and open-highway adventures.
+        </p>
+        <p class="title">
+            Riding a motorcycle demands intense focus, situational awareness, and a deep respect for safety, 
+            making it a highly engaging and exhilarating pastime.Despite their mechanical differences,
+            bicycles and motorcycles both foster a unique, passionate community of riders. 
+            Whether discussing maintenance, planning weekend road trips, or upgrading parts, 
+            enthusiasts share a mutual appreciation for life on two wheels. This universal appeal
+            continues to make biking one of the most beloved and practical forms of personal mobility
+            in the world.
+        </p>
+        
+        <center>
+            <img src="bike.jpg" width="300" height="300">
+        
+        <h1>Bike Registeration form 📄</h1>
+        
+        <form>
+            <label>Name:</label>
+            <input type="text" placeholder="Enter your name here">
+            <br>
+            
+            <label>DOB:</label>
+            <input type="date" placeholder="Enter your DOB here">
+            <br>
+            
+            <label>Email:</label>
+            <input type="email" placeholder="Enter your email here">
+            <br>
+            
+            <label>Contact:</label>
+            <input type="number" placeholder="Enter your phone number here">
+            <br>
+            
+            <label>Address:</label>
+            <textarea rows="3" cols="40" placeholder="Your Address here" ></textarea>
+            <br>
+            <br>
+            <button onclick="c()">SUBMIT</button>
+            <button onclick="r()">CLEAR</button>
+            </center>
+        </form>
+        </td>
+        </tr>
+        </table>
+        <footer>
+            <center>&copy; Sales at coimbatore  </center>
+        </footer>
+    </body>
+</html>
